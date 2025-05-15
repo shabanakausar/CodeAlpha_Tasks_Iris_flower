@@ -43,26 +43,26 @@ PCA analysis showing 92.5% variance explained by first component
 2D visualization of PCA-transformed data
 
 Clustering
-KMeans clustering with elbow method
+- KMeans clustering with elbow method
 
-Optimal cluster count determined as 3 (matching actual species)
+- Optimal cluster count determined as 3 (matching actual species)
 
 Model Comparison
 Tested 7 classification algorithms:
 
-Logistic Regression
+- Logistic Regression
 
-K-Nearest Neighbors
+- K-Nearest Neighbors
 
-Support Vector Machine
+- Support Vector Machine
 
-Decision Tree
+- Decision Tree
 
-Random Forest
+- Random Forest
 
-Gradient Boosting
+- Gradient Boosting
 
-Naive Bayes
+- Naive Bayes
 
 Feature Importance
 Random Forest identified most important features:
@@ -80,11 +80,11 @@ All non-probabilistic models achieved 100% accuracy on the test set, demonstrati
 
 Key findings:
 
-Petal measurements are most discriminative for classification
+- Petal measurements are most discriminative for classification
 
-Sepal width has the most variability but least importance
+- Sepal width has the most variability but least importance
 
-Clear separation between species in PCA space
+- Clear separation between species in PCA space
 
-Optimal clustering matches the three actual species
+- Optimal clustering matches the three actual species
 
